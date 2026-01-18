@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@100..900&family=Fraunces:opsz,wght@9..144,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Sunnyside agency landing page</title>
+  </head>
+
+  <body class="overflow-x-hidden">
+    <div class="first min-h-screen relative">
+      <div
+        class="top absolute z-10 pt-10 flex justify-between w-full px-6 md:px-10"
+      >
+        <img src="images/logo.svg" />
+        <div
+          class="about hidden md:flex justify-between w-[400px] text-white font-medium"
+        >
+          <span>About</span>
+          <span>Services</span>
+          <span>Projects</span>
+          <span
+            class="bg-white text-gray-900 font-bold px-5 py-1 font-[Fraunces] rounded-full"
+            >CONTACT</span
+          >
+        </div>
+      </div>
+
+      <h1
+        class="absolute inset-x-0 top-40 md:top-64 text-center text-white font-bold font-[Fraunces] text-4xl md:text-5xl"
+      >
+        WE ARE CREATIVES
+      </h1>
+
+      <img
+        src="images/icon-arrow-down.svg"
+        class="absolute inset-x-0 top-72 md:top-[400px] mx-auto"
+      />
+
+      <img
+        src="images/desktop/image-header.jpg"
+        class="w-full h-screen object-cover"
+      />
+    </div>
+
+    <div class="second flex flex-col">
+      <div class="grid grid-cols-1 md:grid-cols-2">
+        <div class="p-10 md:p-24 text-center md:text-left">
+          <h2 class="font-[Fraunces] font-bold text-4xl md:text-5xl">
+            Transform your <br />brand
+          </h2>
+          <p class="font-medium text-lg mt-8">
+            We are a full-service creative agency specializing in helping brands
+            grow fast. Engage your clients through compelling visuals that do
+            most of the marketing for you.
+          </p>
+          <button class="mt-8 font-bold font-[Fraunces] text-xl">
+            Learn more
+          </button>
+        </div>
+        <img src="images/desktop/image-transform.jpg" class="w-full" />
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2">
+        <img
+          src="images/desktop/image-stand-out.jpg"
+          class="w-full order-2 md:order-1"
+        />
+        <div class="p-10 md:p-24 text-center md:text-left order-1 md:order-2">
+          <h2 class="font-[Fraunces] font-bold text-4xl md:text-5xl">
+            Stand out to the right audience
+          </h2>
+          <p class="font-medium text-lg mt-8">
+            Using a collaborative formula of designers, researchers,
+            photographers, videographers, and copywriters, we’ll build and
+            extend your brand in digital places.
+          </p>
+          <button class="mt-8 font-bold font-[Fraunces] text-xl">
+            Learn more
+          </button>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2">
+        <div class="relative">
+          <img src="images/desktop/image-graphic-design.jpg" class="w-full" />
+          <div class="absolute bottom-16 inset-x-0 text-center px-6">
+            <h3 class="font-[Fraunces] font-bold text-2xl pb-4">
+              Graphic design
+            </h3>
+            <p class="font-medium text-sm">
+              Great design makes you memorable. We deliver artwork that
+              underscores your brand message and captures potential clients’
+              attention.
+            </p>
+          </div>
+        </div>
+
+        <div class="relative">
+          <img src="images/desktop/image-photography.jpg" class="w-full" />
+          <div class="absolute bottom-16 inset-x-0 text-center px-6">
+            <h3 class="font-[Fraunces] font-bold text-2xl pb-4">Photography</h3>
+            <p class="font-medium text-sm">
+              Increase your credibility by getting the most stunning,
+              high-quality photos that improve your business image.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="third py-24 px-6 md:px-36 flex flex-col">
+      <h3 class="font-bold text-3xl text-center pb-16">Client testimonials</h3>
+
+      <div class="flex flex-col md:flex-row gap-12">
+        <div class="flex flex-col items-center gap-8">
+          <img src="images/image-emily.jpg" class="size-20 rounded-full" />
+          <p class="text-center">
+            We put our trust in Sunnyside and they delivered, making sure our
+            needs were met and deadlines were always hit.
+          </p>
+          <div class="text-center">
+            <span class="font-bold font-[Fraunces]">Emily R.</span>
+            <div>Marketing Director</div>
+          </div>
+        </div>
+
+        <div class="flex flex-col items-center gap-8">
+          <img src="images/image-thomas.jpg" class="size-20 rounded-full" />
+          <p class="text-center">
+            Sunnyside’s enthusiasm coupled with their keen interest in our
+            brand’s success made it a satisfying experience.
+          </p>
+          <div class="text-center">
+            <span class="font-bold font-[Fraunces]">Thomas S.</span>
+            <div>Chief Operating Officer</div>
+          </div>
+        </div>
+
+        <div class="flex flex-col items-center gap-8">
+          <img src="images/image-jennie.jpg" class="size-20 rounded-full" />
+          <p class="text-center">
+            Incredible end result! Our sales increased over 400% when we worked
+            with Sunnyside.
+          </p>
+          <div class="text-center">
+            <span class="font-bold font-[Fraunces]">Jennie F.</span>
+            <div>Business Owner</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid grid-cols-2 md:grid-cols-4">
+      <img src="images/desktop/image-gallery-milkbottles.jpg" class="w-full" />
+      <img src="images/desktop/image-gallery-orange.jpg" class="w-full" />
+      <img src="images/desktop/image-gallery-cone.jpg" class="w-full" />
+      <img src="images/desktop/image-gallery-sugarcubes.jpg" class="w-full" />
+    </div>
+
+    <footer class="bg-green-300 flex flex-col items-center py-24 gap-12">
+      <img src="images/logo.svg" />
+      <div class="flex gap-8 text-green-800">
+        <span>About</span>
+        <span>Services</span>
+        <span>Projects</span>
+      </div>
+      <div class="flex gap-8">
+        <img src="images/icon-facebook.svg" />
+        <img src="images/icon-instagram.svg" />
+        <img src="images/icon-twitter.svg" />
+        <img src="images/icon-pinterest.svg" />
+      </div>
+    </footer>
+  </body>
+</html>
